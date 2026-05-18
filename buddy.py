@@ -1,6 +1,7 @@
 import os
 import sys
 import pyautogui
+import pyttsx3
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -20,6 +21,13 @@ class Buddy:
 
         # Security measure for pyautogui
         pyautogui.FAILSAFE = True
+
+        # Setup TTS engine
+        try:
+            self.tts_engine = pyttsx3.init()
+        except Exception as e:
+            print(f"Warning: Could not initialize TTS engine: {e}")
+            self.tts_engine = None
 
     def welcome(self):
         print("\n" + "="*50)
@@ -90,6 +98,14 @@ if __name__ == "__main__":
                 response = buddy.ask_llm(user_input)
 
             print(f"\nBuddy: {response}\n")
+
+            # Speak the response if TTS is available
+            if buddy.tts_engine:
+                try:
+                    buddy.tts_engine.say(response)
+                    buddy.tts_engine.runAndWait()
+                except Exception as e:
+                    print(f"TTS Error: {e}")
 
         except KeyboardInterrupt:
             print("\nGoodbye!")
