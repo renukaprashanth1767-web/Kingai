@@ -1,0 +1,21 @@
+2026-08-10 15:10:08,374 - INFO - Initializing E.V. AI Brain with model: TinyLlama/TinyLlama-1.1B-Chat-v1.0
+2026-08-10 15:10:08,374 - INFO - Using device: cpu
+2026-08-10 15:10:23,518 - INFO - HTTP Request: HEAD https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-10 15:10:23,518 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-08-10 15:10:23,535 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:23,556 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:23,613 - INFO - HTTP Request: HEAD https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-10 15:10:23,629 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:23,647 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:23,701 - INFO - HTTP Request: GET https://huggingface.co/api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-08-10 15:10:23,754 - INFO - HTTP Request: GET https://huggingface.co/api/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-08-10 15:10:23,800 - INFO - HTTP Request: HEAD https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer.model "HTTP/1.1 302 Found"
+2026-08-10 15:10:29,510 - INFO - HTTP Request: HEAD https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-10 15:10:29,527 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:29,545 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:29,681 - INFO - HTTP Request: HEAD https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-08-10 15:10:29,729 - INFO - HTTP Request: HEAD https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-08-10 15:10:29,747 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:29,764 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/TinyLlama/TinyLlama-1.1B-Chat-v1.0/fe8a4ea1ffedaf415f4da2f062534de366a451e6/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-08-10 15:10:29,819 - INFO - HTTP Request: HEAD https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
